@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="college" class="com.im.beans.College">
+		<constructor-arg>
+			<map>
+				<entry key="Raja" value="java"></entry>
+				<entry key="Ravi">
+					<value>.NET</value>
+				</entry>
+				<entry key="Ramesh" value="SAP" />
+			</map>
+		</constructor-arg>
+	</bean>
+</beans>
